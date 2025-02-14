@@ -1,0 +1,6 @@
+*
+
+# Only adding necessary files
+!.gitignore
+!add_to_blacklist.sh
+!blacklist_source.conf
