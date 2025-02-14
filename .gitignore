@@ -4,3 +4,4 @@
 !.gitignore
 !add_to_blacklist.sh
 !blacklist_source.conf
+!add_to_blacklist.service

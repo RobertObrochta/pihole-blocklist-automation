@@ -1,0 +1,11 @@
+[Unit]
+Description=Pihole Add to Blacklist Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+EnvironmentFile=/etc/pihole/blacklist_source.conf
+ExecStart=sh -c 'sh /etc/pihole/add_to_blacklist.sh ${ARG1} q'
+
+[Install]
+WantedBy=multi-user.target
